@@ -90,7 +90,7 @@ def recommend_collab():
     prod_id = []
     prod_images = []
     for i in range(0, 15):
-        similar_products = similar_products.concat(collab(option, 4.5))
+        similar_products = similar_products.append(collab(option, 4.5))
     result = similar_products.transpose()
     # result.columns = ['score']
     result.index.name = 'product'
