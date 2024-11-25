@@ -26,7 +26,7 @@ corrMatrix = pd.DataFrame(corrMatrix_dict)
 
 # Streamlit title and sub header element
 st.title('Product Recommendation System')
-st.subheader('Project By: BC254 Rushikesh Tekale, BC256 Hitesh Umare, BC258 Rutwik Wanve, BC260 Onkar Dongare')
+st.subheader('Project By: BC260 Onkar Dongare, BC254 Rushikesh Tekale, BC256 Hitesh Umare, BC258 Rutwik Wanve')
 
 # streamlit select box element which shows all the products list from the dataset
 option = st.selectbox('Search for Products', products_df['name'].values)
